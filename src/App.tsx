@@ -7,7 +7,7 @@ type Fish = {
 };
 
 const Game = () => {
-  const [maxScore, setMaxScore] = useState<number>(0);
+  const [maxScore, setMaxScore] = useState<number>(2);
   const [fish, setFish] = useState<Fish[]>([]);
   const [score, setScore] = useState<number>(0);
   const [isGameRunning, setIsGameRunning] = useState<boolean>(false);
