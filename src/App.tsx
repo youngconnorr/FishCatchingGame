@@ -84,10 +84,12 @@ const Game = () => {
                 <div className="congrats-message">
                   <img src={DANCE} alt="" width="80px" />
                   <br />
-                  <p style={{ marginBottom: "20px" }}>
-                    Good catching {maxScore} fish!
+                  <p style={{ marginBottom: "20px", fontSize: "0.9em" }}>
+                    Happy Birthday Chelsea :&#41;!!
                   </p>
-                  <p>Ginger still wants more fish though...</p>
+                  <p style={{ fontSize: "0.4em" }}>
+                    More cake needs to be eaten though...
+                  </p>
                   <div className="congrats-btns">
                     {/* <button
                       onClick={() =>
@@ -105,7 +107,7 @@ const Game = () => {
               <>
                 <div className="ingame-text-container">
                   <div className="ingame-text">
-                    <h1>Help Ginger catch {maxScore} fish!!</h1>
+                    <h1>Help Chelsea eat {maxScore} cake!!</h1>
                     <p>Score: {score}</p>
                     <div style={{ display: "flex" }}>
                       <button
@@ -142,9 +144,9 @@ const Game = () => {
         <>
           <div className="title-container">
             <div className="title-text">
-              <h1>Catch fish to feed Ginger!</h1>
+              <h1>Quick feed Chelsea cake!</h1>
               <div className="set-fish-score">
-                Ginger's hunger
+                Pieces of cake
                 <button
                   onClick={() =>
                     setMaxScore((prev) => (prev - 1 > 2 ? prev - 1 : 2))
@@ -153,7 +155,7 @@ const Game = () => {
                 >
                   😿
                 </button>
-                <p>{maxScore} Fishes</p>
+                <p>{maxScore} Pieces</p>
                 <button
                   onClick={() =>
                     setMaxScore((prev) => (prev + 1 > 15 ? prev : prev + 1))
