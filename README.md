@@ -1,4 +1,4 @@
-# QUICK FEED GINGER 🐱
+# QUICK CATCH CAKE 🍰
 
 ### Motivation:
 - This is a game I made for my girlfriend's birthday! (Ginger is her cat's name)
